@@ -1,0 +1,59 @@
+.main {
+    width: 336px;
+    height: 236px;
+    left: 408px;
+    top: 232px;
+    margin-top: 232px;
+    margin-bottom: 232px;
+    margin-left: 404px;
+    margin-right: 404px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+}
+
+.header {
+    height: 28px;
+    width: 336px;
+    left: 408px;
+    top: 232px;
+    border-radius: [object Object]px;
+
+    background-color: #FFDC40;
+}
+
+.elave {
+    height: 42px;
+    width: 150px;
+    left: 500px;
+    top: 407px;
+    border-radius: 71px;
+    background-color: blueviolet;
+    margin-left: 92px;
+}
+
+h2 {
+    height: 34px;
+    width: 198px;
+    padding-left: 69px;
+    padding-right: 69px;
+}
+
+input {
+
+    height: 40px;
+    width: 286px;
+    left: 436px;
+    top: 349px;
+    border-radius: 10px;
+    margin-left: 28px;
+    margin-right: 22px
+}
+
+.plus {
+    height: 42px;
+    width: 42px;
+    left: 500px;
+    top: 407px;
+    border-radius: 71px;
+    background-color: rgba(153, 83, 241, 1);
+}

@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <link rel="stylesheet" href="index.js">
-  <div class="main">
-    <div class="container">
-  <div class="header"></div>
-  <h2>To do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  </div>
-  <div class="button">
-   <div onclick="newelement()" class="elave">
-  <button class="plus">+</button>
-<a>elave et</a></div>
-  </div>
-  </div>
+    <div class="main">
+        <div class="yellow">
+            <br>
+            <br>
+        </div>
+        <div id="myDIV" class="header">
+            <h2>To-Do List</h2>
+            <br>
+            <img class="sekil1" src="Group 74.png" alt="sekil1" style="float:right; margin-right: 13%;">
+            <img class="sekil2" src="Group 90.png" alt="sekil2" style="float:right; margin-right: 13%; display: none;">
+            <br>
+            <br>
+                <input type="text" id="myInput" placeholder="Bura yazin...">
+            
+            
+        </div>
+
+        <ul id="myUL">
+        </ul>
+
+        <div onclick="newElement()" class="addBtn">
+            <button>+</button>
+            <a>Elave et</a>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
